@@ -1,0 +1,48 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=6F:95:38:83:7D:99:44:04:23:88:FA:8B:F2:D9:DB:38:7C:21:E0:71%3Bcom.ican.ilkercan.places
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    6F:95:38:83:7D:99:44:04:23:88:FA:8B:F2:D9:DB:38:7C:21:E0:71
+
+    SHA-1 certificate fingerprint:
+    6F:95:38:83:7D:99:44:04:23:88:FA:8B:F2:D9:DB:38:7C:21:E0:71
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyALYlzT7auotzsuY8pNwH8uGgXzvcqiS6w</string>s
+    -->
+
+
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=6F:95:38:83:7D:99:44:04:23:88:FA:8B:F2:D9:DB:38:7C:21:E0:71%3Bcom.ican.ilkercan.places
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    6F:95:38:83:7D:99:44:04:23:88:FA:8B:F2:D9:DB:38:7C:21:E0:71
+
+    SHA-1 certificate fingerprint:
+    6F:95:38:83:7D:99:44:04:23:88:FA:8B:F2:D9:DB:38:7C:21:E0:71
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" translatable="false">AIzaSyAVC8jphIzkscF9VCGs7sx0ov8N_pQGuUY</string>
+</resources>

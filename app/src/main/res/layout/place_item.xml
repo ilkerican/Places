@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/a_home_screen_mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_alignParentBottom="true"
+                android:background="#ffffff">
+
+                <TableRow
+                    android:id="@+id/a_home_screen_searchstation_tr"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        app:srcCompat="@drawable/ic_place_black_24dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:tint="#d1222d" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/txtPlacename"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left|center_vertical"
+                            android:text="GİDİLEN YER"
+                            android:textColor="#d1222d"
+                            android:textStyle="normal|bold" />
+
+                        <TextView
+                            android:id="@+id/txtDistance"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Mesafe : 0.5km"
+                            android:textColor="#000000" />
+                    </LinearLayout>
+
+                    <FrameLayout
+                        android:layout_width="1dp"
+                        android:layout_height="45dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="5dp"
+                        android:background="#b3b3b3">
+
+                    </FrameLayout>
+
+                    <Button
+                    android:id="@+id/btnDuration"
+                    android:drawableTop="@drawable/ic_rootmap"
+                    tools:ignore="ButtonStyle,HardcodedText,RtlHardcoded"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="451dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:height="60dp"
+                    android:background="?android:selectableItemBackground"
+                    android:drawablePadding="6dp"
+                    android:drawableTint="#d1222d"
+                    android:fontFamily="sans-serif"
+                    android:minHeight="32dp"
+                    android:paddingTop="8dp"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="#000000" />
+                    <Button
+                        android:id="@+id/btnDelete"
+                        android:drawableTop="@drawable/ic_delete_forever_black_24dp"
+                        tools:ignore="ButtonStyle,HardcodedText,RtlHardcoded"
+                        tools:layout_editor_absoluteX="0dp"
+                        tools:layout_editor_absoluteY="451dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:height="60dp"
+                        android:background="?android:selectableItemBackground"
+                        android:drawablePadding="6dp"
+                        android:drawableTint="#d1222d"
+                        android:fontFamily="sans-serif"
+                        android:minHeight="32dp"
+                        android:paddingTop="8dp"
+                        android:text=""
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textColor="#000000" />
+                </TableRow>
+
+            </TableLayout>
+        </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Places</string>
+    <!--    Permissions    -->
+    <string name="permission_rationale_location">Access to the location service is required to show your current location on the map.</string>
+    <string name="location_permission_denied">This application requires location permission. Please try again and grant access to use the location.\nIf the permission has been permanently denied, it can be enabled from the System Settings &gt; Apps &gt; \'Lukoil\'.</string>
+    <string name="permission_required_toast">Location permission is required for this application.</string>
+    <!-- General -->
+
+    <string name="error_noInternet">Internet bağlantısı yok. Daha sonra tekrar deneyiniz.</string>
+    <string name="error_generic_description">Bir hata oluştu. Daha sonra tekrar deneyiniz.</string>
+    <string name="location_not_permitted">Lokasyon bilgisi erişimine izin vermediniz.</string>
+    <string name="no_data">NoData</string>
+    <string name="r_msg_loc_info">Unable to get location information !</string>
+    <string name="enter_the_name_of_this_place">Enter the name of this place</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="save">Save</string>
+    <string name="entername">Please enter the name</string>
+    <string name="placesaved">Place saved successfully.</string>
+    <string name="placedeleted">Place was deleted successfully</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
