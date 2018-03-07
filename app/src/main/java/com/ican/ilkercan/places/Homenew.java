@@ -314,6 +314,13 @@ public class Homenew extends AppCompatActivity implements GoogleApiClient.OnConn
 
                         if(results == null)
                         {results = new ArrayList<>();}
+                        else
+                        {
+                            if(mCurrentIndex == 0)
+                            {
+                                results.clear();
+                            }
+                        }
                         JSONObject jsonObject = new JSONObject(response);
 
                         String distance = ((JSONObject)((JSONObject)((JSONArray)((JSONObject)((JSONArray)(jsonObject.get("routes"))).get(0)).getJSONArray("legs")).get(0)).get("distance")).get("text").toString();
@@ -350,12 +357,12 @@ public class Homenew extends AppCompatActivity implements GoogleApiClient.OnConn
 
                     if(size > 0)
                     {
-                        String origin = mLastLocation.getLatitude() + "," + mLastLocation.getLongitude() ;
-                        //String origin = "41.060069,28.988111";
+                        //String origin = mLastLocation.getLatitude() + "," + mLastLocation.getLongitude() ;
+                        String origin = "41.060069,28.988111";
 
-                        String destination = String.valueOf(((PlaceItem)mPlaces.getPlaces().get(mCurrentIndex)).getLatLng().latitude) + ","+ String.valueOf(((PlaceItem)mPlaces.getPlaces().get(mCurrentIndex)).getLatLng().longitude);
+                        //String destination = String.valueOf(((PlaceItem)mPlaces.getPlaces().get(mCurrentIndex)).getLatLng().latitude) + ","+ String.valueOf(((PlaceItem)mPlaces.getPlaces().get(mCurrentIndex)).getLatLng().longitude);
 
-                        //String destination = "41.030960,28.934290";
+                        String destination = "41.030960,28.934290";
 
 
                         //See this : https://developers.google.com/maps/documentation/directions/intro
